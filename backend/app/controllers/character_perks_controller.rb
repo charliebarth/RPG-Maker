@@ -1,0 +1,2 @@
+class CharacterPerksController < ApplicationController
+end

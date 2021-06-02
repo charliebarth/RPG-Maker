@@ -1,0 +1,2 @@
+class CharacterPerk < ApplicationRecord
+end

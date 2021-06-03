@@ -1,0 +1,2 @@
+class MasterSpellList < ApplicationRecord
+end

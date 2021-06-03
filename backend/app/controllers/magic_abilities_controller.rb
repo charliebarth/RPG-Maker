@@ -1,0 +1,2 @@
+class MagicAbilitiesController < ApplicationController
+end

@@ -2,7 +2,14 @@ class CreateCharacters < ActiveRecord::Migration[6.1]
   def change
     create_table :characters do |t|
       t.string :name
-      t.integer :inventory_id
+      t.integer :strength
+      t.integer :dexterity
+      t.integer :consitution
+      t.integer :charisma
+      t.integer :intelligence
+      t.integer :wisdom
+      t.integer :will
+      t.boolean :spellcaster
       t.integer :user_id
 
 

@@ -1,0 +1,2 @@
+class MasterSpellListsController < ApplicationController
+end

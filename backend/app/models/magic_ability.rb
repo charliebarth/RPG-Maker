@@ -1,0 +1,2 @@
+class MagicAbility < ApplicationRecord
+end

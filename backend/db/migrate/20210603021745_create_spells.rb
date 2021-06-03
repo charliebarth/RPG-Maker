@@ -4,6 +4,7 @@ class CreateSpells < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :description
       t.string :modifiers
+      t.integer :master_spell_list_id
 
       t.timestamps
     end

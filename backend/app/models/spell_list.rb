@@ -1,2 +1,0 @@
-class SpellList < ApplicationRecord
-end

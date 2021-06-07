@@ -1,11 +1,10 @@
 Rails.application.routes.draw do
+  resources :character_spells
+  resources :character_items
   resources :master_spell_lists
   resources :spells
   resources :magic_abilities
-  resources :spell_lists
-  resources :inventory_items
   resources :items
-  resources :inventories
   resources :users
   resources :character_perks
   resources :perks

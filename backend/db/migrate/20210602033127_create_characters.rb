@@ -10,6 +10,8 @@ class CreateCharacters < ActiveRecord::Migration[6.1]
       t.integer :wisdom
       t.integer :will
       t.boolean :spellcaster
+      t.float :max_inventory_weight
+      t.float :inventory_weight
       t.integer :user_id
 
 

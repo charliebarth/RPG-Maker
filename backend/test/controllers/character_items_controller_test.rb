@@ -1,6 +1,6 @@
 require "test_helper"
 
-class SpellListTest < ActiveSupport::TestCase
+class CharacterItemsControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

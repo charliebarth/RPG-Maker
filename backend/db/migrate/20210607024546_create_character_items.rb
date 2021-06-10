@@ -8,6 +8,7 @@ class CreateCharacterItems < ActiveRecord::Migration[6.1]
       t.boolean :carried
       t.boolean :in_use
       t.string :notes
+      t.float :inventory_weight
 
       t.timestamps
     end

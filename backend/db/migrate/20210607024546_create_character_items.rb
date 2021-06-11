@@ -9,6 +9,7 @@ class CreateCharacterItems < ActiveRecord::Migration[6.1]
       t.boolean :in_use
       t.string :notes
       t.float :inventory_weight
+      t.string :used_inventory_units
 
       t.timestamps
     end

@@ -13,6 +13,8 @@ class CreateCharacters < ActiveRecord::Migration[6.1]
       t.float :max_inventory_weight
       t.float :inventory_weight
       t.string :inventory
+      t.string :inventory_units
+      t.string :used_inventory_units
       t.integer :user_id
 
 

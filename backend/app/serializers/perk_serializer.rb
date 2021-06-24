@@ -1,4 +1,4 @@
 class PerkSerializer
   include JSONAPI::Serializer
-  attributes 
+  attributes :name, :description, :modifiers
 end

@@ -1,4 +1,4 @@
 class CharacterPerkSerializer
   include JSONAPI::Serializer
-  attributes 
+  attributes :character_id, :perk_id, :remaining_uses
 end

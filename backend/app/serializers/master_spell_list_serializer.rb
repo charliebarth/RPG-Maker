@@ -1,4 +1,4 @@
 class MasterSpellListSerializer
   include JSONAPI::Serializer
-  attributes 
+  attributes :title
 end

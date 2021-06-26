@@ -9,6 +9,8 @@ class CreateCharacters < ActiveRecord::Migration[6.1]
       t.integer :intelligence
       t.integer :wisdom
       t.integer :will
+      t.integer :stress
+      t.integer :resolve
       t.boolean :spellcaster
       t.float :max_inventory_weight
       t.float :inventory_weight

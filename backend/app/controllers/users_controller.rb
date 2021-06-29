@@ -17,6 +17,21 @@ class UsersController < ApplicationController
         end
     end
 
+    def login
+      user = User.where(code: user_params[:code])
+      if user.present? && user.name == user_params[:name]
+      elsif !user.present?
+        render json: { error: 'No user eixsts with this code' }, status: :no_a_users
+      elsif user.present? && user.name == !user_params[:name]
+        render json: { error: "The code you entered doens't match with the name you entered" }, status: :credentials_do_not_match
+      end
+    end
+
+    def logout
+      
+    end
+    
+
     private
   
     def user_params

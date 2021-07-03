@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :rulebooks
+  resources :pages
   resources :character_spells
   resources :character_items
   resources :master_spell_lists

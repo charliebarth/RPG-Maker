@@ -1,0 +1,2 @@
+class RulebooksController < ApplicationController
+end

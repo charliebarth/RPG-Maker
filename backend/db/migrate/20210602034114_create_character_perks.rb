@@ -4,6 +4,7 @@ class CreateCharacterPerks < ActiveRecord::Migration[6.1]
       t.integer :character_id
       t.integer :perk_id
       t.integer :remaining_uses
+      t.string :source
 
       t.timestamps
     end

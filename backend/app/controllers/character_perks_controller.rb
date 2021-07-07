@@ -49,6 +49,6 @@ class CharacterPerksController < ApplicationController
     private
   
     def character_perk_params
-      params.require(:character_perk).permit(:name, :description, :modifiers)
+      params.require(:character_perk).permit(:character_id, :perk_id, :remaining_uses, :source)
     end
 end

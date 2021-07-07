@@ -49,6 +49,6 @@ class CharactersController < ApplicationController
     private
   
     def character_params
-      params.require(:character).permit(:name, :strength, :dexterity, :consitution, :charisma, :intelligence, :wisdom, :will, :stress, :resolve, :spellcaster, :max_inventory_weight, :inventory_weight, :inventory_units, :inventory, :user_id)
+      params.require(:character).permit(:name, :strength, :dexterity, :consitution, :charisma, :intelligence, :wisdom, :will, :stress, :spellcaster, :max_inventory_weight, :inventory_weight, :inventory_units, :inventory, :description, :notes, :extras, :hunger, :thirst, :body_temp, :proficiencies, :hit_points, :defenses, :weaknesses, :conditions, :armor_class, :senses, :user_id)
     end
 end
